@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Lyle
 subtitle: ''
-description: ''
+description: 阿亮
 keywords:
-author: John Doe
-language: en
-timezone: ''
+author: Lyle
+language: zh-CN
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -33,6 +33,7 @@ skip_render:
 
 # Writing
 new_post_name: :title.md # File name of new posts
+auto_spacing : true
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -41,7 +42,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
